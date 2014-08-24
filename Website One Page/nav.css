@@ -16,21 +16,21 @@ body {
 	
 }
 nav {
-	     height: 45px;
+    height: 35px;
 	width: 100%;
 	background: #fff;
-	font-size: 20px;
+	font-size: 18px;
   font-family: 'Gotham Light';
 	font-weight: bold;
 	position: fixed;
-	border-bottom: 2px solid #5B8689;
+	border-bottom: 2px solid #FFF;
     color: #7DAD35;
 }
 nav ul {
 	padding: 0;
     margin: 0 auto;
     margin-right: 6%;
-	width: 500px;
+	width: 550px;
 	height: 50px;
      color: #FFF;
 }
@@ -41,13 +41,13 @@ nav li {
 nav a {
 	color: #7DAD35;
 	display: inline-block;
-	width: 100px;
+	width: 125px;
 	text-align: center;
 	text-decoration: none;
-	line-height: 45px;
+	line-height: 35px;
 }
 nav li a {
-	border-right: 1px solid #7DAD35;;
+	border-right: 1px solid #FFF;
 	box-sizing:border-box;
 	-moz-box-sizing:border-box;
 	-webkit-box-sizing: border-box;
@@ -80,8 +80,8 @@ nav a#pull {
   		position: relative;
   	}
   	nav li a {
-		border-bottom: 1px solid #F0F0F0;;
-		border-right: 1px solid #F0F0F0;;
+		border-bottom: 1px solid #FFF;;
+		border-right: 1px solid #FFF;;
 	}
   	nav a {
 	  	text-align: left;
