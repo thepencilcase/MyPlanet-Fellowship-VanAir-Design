@@ -1,0 +1,187 @@
+/* This code is only meant for previewing your Reflow design. */
+.primaryContainer {
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    min-height: 100%;
+    width: 100%;
+}
+
+#cover_container {
+    float: left;
+    height: 750px;
+    margin-left: -5.599403%;
+    margin-top: 0px;
+    clear: none;
+    width: 112%;
+    min-width: 0px;
+    background-image:url("img/cover1920.jpg");
+    background-attachment: scroll;
+    -webkit-background-size: 100%;
+    background-size: 100%;
+    background-position: 0% 80%;
+    background-repeat: repeat repeat;
+}
+
+#doortitle {
+    float: none;
+    font-size: 52px;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    font-weight: 100;
+    line-height: 1em;
+    margin-left: auto;
+    margin-top: 0px;
+    clear: none;
+    min-height: 0px;
+    font-family: Gotham;
+    color: rgb(255, 255, 255);
+    margin-right: auto;
+    min-width: 0px;
+}
+
+#text {
+    float: none;
+    font-size: 34px;
+    width: auto;
+    height: auto;
+    text-align: center;
+    font-weight: normal;
+    line-height: 1em;
+    margin-left: auto;
+    margin-top: 5px;
+    clear: none;
+    min-height: 74px;
+    font-family: Gotham;
+    color: rgb(255, 255, 255);
+    margin-right: auto;
+}
+
+#box1 {
+    float: none;
+    height: 6px;
+    margin-left: auto;
+    margin-top: 100px;
+    clear: none;
+    width: 300px;
+    margin-right: auto;
+    background-color: rgb(255, 255, 255);
+}
+
+#box2 {
+    float: none;
+    height: 6px;
+    margin-left: auto;
+    margin-top: 2px;
+    clear: none;
+    width: 300px;
+    margin-right: auto;
+    display: block;
+    background-color: rgb(255, 255, 255);
+}
+
+#box {
+    float: none;
+    height: 110px;
+    margin-left: auto;
+    margin-top: 150px;
+    clear: none;
+    width: 300px;
+    background-image:url("img/logo_03.png");
+    background-attachment: scroll;
+    -webkit-background-size: 350px;
+    background-size: 350px;
+    margin-right: auto;
+    min-height: 0px;
+    background-position: 50% 75%;
+    background-repeat: repeat repeat;
+}
+
+@media only screen and (max-width: 1281px) {
+    #cover_container {
+        background-image:url("img/cover1280.jpg"),url("img/cover1920.jpg");
+        background-attachment: scroll;
+        -webkit-background-size: 1433.6000000000001px, 100%;
+        background-size: 1433.6000000000001px, 100%;
+        height: 700px;
+        background-position: 100% 50%, 50% 80%;
+        background-repeat: repeat repeat;
+    }
+
+    #box2 {
+        margin-top: 2px;
+        clear: none;
+    }
+
+    #text {
+        font-size: 34px;
+        height: auto;
+        min-height: 74px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media only screen and (max-width: 781px) {
+    #cover_container {
+        background-image:url("img/cover1280.jpg"),url("img/cover1920.jpg");
+        background-attachment: scroll;
+        -webkit-background-size: 897.792px, 100%;
+        background-size: 897.792px, 100%;
+        height: 600px;
+        background-position: 100% 50%, 50% 80%;
+        background-repeat: repeat repeat;
+    }
+
+    #box2 {
+        margin-top: 2px;
+        clear: none;
+    }
+
+    #text {
+        font-size: 32px;
+        height: auto;
+        min-height: 70px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media only screen and (max-width: 420px) {
+    #doortitle {
+        font-size: 42px;
+    }
+
+    #box1 {
+        width: 250px;
+    }
+
+    #box2 {
+        clear: none;
+        width: 250px;
+    }
+
+    #text {
+        font-size: 28px;
+        height: auto;
+        min-height: 60px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #cover_container {
+        height: 500px;
+    }
+
+    #box {
+        width: 250px;
+        background-image:url("img/logo_03.png");
+        background-attachment: scroll;
+        -webkit-background-size: 300px;
+        background-size: 300px;
+        background-position: 50% 75%;
+        background-repeat: repeat repeat;
+    }
+}
+

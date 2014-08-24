@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+
+    <head>        
+	<link rel="stylesheet" href="boilerplate.css">
+    <!--- Main Stylesheet with 4 Breakpoints ---->   
+	<link rel="stylesheet" href="index.css">
+    <!--- typography ---->
+    <link rel="stylesheet" href="font.css">
+        
+	<meta charset="utf-8">
+	<meta name="viewport" content="initial-scale = 1.0,maximum-scale = 1.0">
+        
+    <!----------------  Scripts ---------------------->
+        
+    <script type="text/javascript" src="js/jquery-1.8.3.min.js"></script>    
+    
+        
+    <!------------- Scroll Script Start -------------->
+
+    <script type="text/javascript" src="js/jquery.localscroll-min.js"></script>
+    <script type="text/livescript" src="js/smoothscroll.js"></script>
+        
+    <!------------- Scroll Script End ---------------->
+        
+    <!------------- Menu Script Start ---------------->
+        
+    <!-- <link rel="stylesheet" href="normalize.css"> --->
+	<link rel="stylesheet" href="nav.css">
+	<link href='http://fonts.googleapis.com/css?family=PT+Sans:400,700' rel='stylesheet' type='text/css'>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+	<script>
+		$(function() {
+			var pull 		= $('#pull');
+				menu 		= $('nav ul');
+				menuHeight	= menu.height();
+
+			$(pull).on('click', function(e) {
+				e.preventDefault();
+				menu.slideToggle();
+			});
+
+			$(window).resize(function(){
+        		var w = $(window).width();
+        		if(w > 320 && menu.is(':hidden')) {
+        			menu.removeAttr('style');
+        		}
+    		});
+		});
+	</script>
+    <!------------- Menu Script End ------------------->
+        
+        
+        
+    </head>
+    <body>
+
+    <div id="primaryContainer" class="primaryContainer clearfix">
+        
+        <!--- Navigation Start ----> 
+        
+        
+        <!--- Navigation End----> 
+        
+        
+        <!--- Cover Page Start---->  
+        <div id="cover_container" class="clearfix">
+            <div id="logo" class="clearfix">
+            </div>
+            <p id="doortitle">
+            &nbsp;Doors
+            </p>
+            <div id="bartop" class="clearfix">
+            </div>
+            <p id="subtitletext">
+            What can a door <br />do for you&#x3f;
+            </p>
+            <div id="barbottom" class="clearfix">
+            </div>
+        </div>
+        <!--- Cover Page End----> 
+
+        
+        <!--- Air Quality Start----> 
+        <div id="air_container">
+        </div>
+        <!--- Air Quality End----> 
+        
+        <!--- Sound Quality Start----> 
+        <div id="sound_container">
+        </div>
+        <!--- Sound Quality End----> 
+        
+        <!--- Additional Benifits Start----> 
+        <div id="benifits_container">
+        </div>
+        <!--- Additioanl Benifits End----> 
+        
+    </div>
+    </body>
+</html>
