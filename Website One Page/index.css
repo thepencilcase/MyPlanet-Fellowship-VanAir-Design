@@ -143,7 +143,7 @@
     background-repeat: repeat repeat;
 }
 
-@media only screen and (max-width: 1281px) {
+@media only screen and (max-width: 1280px) {
     #cover_container {
         background-image:url("img/cover1280.jpg"),url("img/cover1920.jpg");
         background-attachment: scroll;
@@ -168,7 +168,7 @@
     }
 }
 
-@media only screen and (max-width: 781px) {
+@media only screen and (max-width: 780px) {
     #cover_container {
         background-image:url("img/cover1280.jpg"),url("img/cover1920.jpg");
         background-attachment: scroll;
